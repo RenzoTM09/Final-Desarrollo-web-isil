@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.harley-davidson.com/content/dam/h-d/images/promo-images/2023/media-carousel/cvo-rgl-120-media-carousel.jpg?impolicy=myresize&rw=900'); /* Reemplaza con la ruta de tu imagen de fondo */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #333;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.buttons button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttons button:hover {
+    background-color: darkorange;
+}
+nav {
+    background-color: yellow;
+    padding: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
